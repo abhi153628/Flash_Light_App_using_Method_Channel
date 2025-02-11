@@ -176,7 +176,7 @@ class _FlashlightPageState extends State<FlashlightPage> with TickerProviderStat
                 end: Alignment.bottomCenter,
                 colors: [
                   Colors.black,
-                  Color.lerp(Colors.black, Color(0xFFe3e39c),
+                  Color.lerp(Colors.black, Color(0xFFe3e39c).withOpacity(0.6),
                       _torchGlowAnimation.value * 0.3)!,
                 ],
               ),
